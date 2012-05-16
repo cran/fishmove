@@ -1,0 +1,13 @@
+9440ce2a00e7702bbfdb6e6198146fb7 *DESCRIPTION
+2c00a64f038bab2f5dbf0515e6ce0285 *NAMESPACE
+7bc902d3335f718b1d3c6343c3f0717b *R/fishmove_code.R
+c7a3494f093024f3f7720e8d21e24311 *data/datafishmove.rda
+768fee614d0d3a80816dd472ee61a64f *data/speciesfishmove.rda
+74e3b5be04adea5a495a3dc2c027ef0a *inst/CITATION
+ce77211f2a9f9d047e1330e8452b1e50 *man/datafishmove.Rd
+3858aeefbbd1cebae4d8a46747a6acfc *man/fishmove-internal.Rd
+0a87b3ebbed75068ac6d10dc083a6583 *man/fishmove-package.Rd
+0a577ae91eb71acab6006f4b548a07f1 *man/fishmove.Rd
+a0574808ffab3bcb3cbe5fdfc349b19b *man/pdk.Rd
+fe62a582f3aab6df7b3c3f705123a7ea *man/speciesfishmove.Rd
+93af643a529d86cf92be0c52f8b1e702 *tests/reptest.fishmove.R

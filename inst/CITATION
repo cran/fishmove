@@ -1,0 +1,14 @@
+citHeader("To cite package 'fishmove' in publications use:")
+
+citEntry(entry="Article",
+         title = "citation_title",
+         author = personList(as.person("J. Radinger")),
+		 journal = "Journal",
+         year         = 2011,
+         url          = "http://fidimo.igb-berlin.de",
+         
+         textVersion = 
+         paste("Radinger, J. (2011)", 
+               "Title",
+               "Journal, Issue")
+)
