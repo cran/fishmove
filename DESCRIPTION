@@ -1,9 +1,9 @@
 Package: fishmove
 Type: Package
 Title: Prediction of Fish Movement Parameters
-Version: 0.0-1
-Packaged: 2012-05-16 08:12:10 UTC; Johannes Radinger
-Date/Publication: 2012-05-16 10:48:44
+Version: 0.0-2
+Packaged: 2012-09-27 15:40:43 UTC; radinger
+Date/Publication: 2012-09-28 13:58:03
 Author: Johannes Radinger
 Maintainer: Johannes Radinger <jradinger@igb-berlin.de>
 Description: Functions to predict fish movement parameters based on

@@ -180,11 +180,11 @@ pdk <-function(fishmove,p=0.66,...){
 			scale_x_continuous("Movement Distance (m)")+
 			scale_colour_manual(name="",values=c("fitted mean"="green4","lower/upper bound"="grey65"))+
 			theme_bw()+
-			opts(	legend.position = c(0.95,0.85),
+			theme(	legend.position = c(0.95,0.85),
 					legend.justification ="right",
-					legend.title = theme_blank(),
-					legend.background = theme_rect(colour = 'grey', fill = 'white'),
-					panel.grid.minor = theme_blank())
+					legend.title = element_blank(),
+					legend.background = element_rect(colour = 'grey', fill = 'white'),
+					panel.grid.minor = element_blank())
 	
 	pdk #plot final density plot
 }
