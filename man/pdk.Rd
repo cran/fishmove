@@ -25,7 +25,7 @@
 \details{
 	\code{pdk} provides graphs (based on \href{http://had.co.nz/ggplot2/}{ggplot2}) displaying probability density kernels (pdk) for leptokurtic fish dispersal. For each plot the fitted mean as well as the upper and the lower bound (based on confidence or prediction interval, see \code{\link[stats]{predict.lm}}) are displayed.
 
-	\code{p} is the share of the stationary component in the population resp. 1-\code{p} is the share of the mobile component. An average value for \code{p} is 0.66 (66\% stationary) \cite{(Radinger, 2011)}.
+	\code{p} is the share of the stationary component in the population resp. 1-\code{p} is the share of the mobile component. An average value for \code{p} is 0.66 (66\% stationary) \cite{(Radinger and Wolter, 2013)}.
 
 	The underlying leptokurtic density function is:
 
@@ -38,8 +38,8 @@
 }
 
 \references{
-Radinger, J. and Wolter C. (2012) 
-Dispersal patterns and abilities of freshwater fishes. \emph{submitted}.
+Radinger, J. and Wolter C. (2013) 
+Patterns and predictors of fish dispersal in rivers. \emph{Fish and Fisheries} DOI: http://dx.doi.org/10.1111/faf.12028.
 }
 
 \seealso{

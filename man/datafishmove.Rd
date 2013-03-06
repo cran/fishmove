@@ -16,7 +16,7 @@ Data for performing multiple regression to calculate movement parameters of lept
     \item{ASPECT.RATIO}{aspect ratio of the caudal fin \cite{(Pauly, 1989)}}
     \item{TIME}{Time of study}
     \item{SIGMA_STAT}{movement parameter of stationary component}
-    \item{SIGMA_MOB}{movement parameter of stationary component}
+    \item{SIGMA_MOB}{movement parameter of mobile component}
     \item{p}{share of stationary component}
     \item{REP}{indication of replicates}
   }
@@ -25,8 +25,8 @@ Data for performing multiple regression to calculate movement parameters of lept
 Johannes Radinger
 }
 \source{
-Radinger, J. and Wolter C. (2012) 
-Dispersal patterns and abilities of freshwater fishes. \emph{submitted}.
+Radinger, J. and Wolter C. (2013) 
+Patterns and predictors of fish dispersal in rivers. \emph{Fish and Fisheries} DOI: http://dx.doi.org/10.1111/faf.12028.
 }
 \references{
 Pauly, D. (1989)

@@ -7,9 +7,6 @@
 #Fishmove main default
 fishmove <- function(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=50,...){
 	
-	#loading speciesfishmove
-	data(speciesfishmove)
-	data(datafishmove)
 	
 	####### VALIDATION of INPUT ##########
 	#Validation of Arguments
@@ -77,6 +74,7 @@ fishmove <- function(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=5
 	
 	
 	for (i in 1:rep) {
+		REP = NULL # needed to get visible binding for global var in ddply
 		subsample <- ddply(datafishmove, .(REP), function(x){
 					x[sample(nrow(x), 1), ]}) # subsample to correct for effect of pseudo replication
 		model.fishmove.stat <- lm(log(SIGMA_STAT) ~log(LENGTH)+ASPECT.RATIO+sqrt(STREAM.ORDER)+log(TIME),data=subsample)
