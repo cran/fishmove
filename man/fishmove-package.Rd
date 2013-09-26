@@ -9,8 +9,8 @@
 
 	\tabular{ll}{
 	Package: \tab fishmove\cr
-	Version: \tab 0.1-1\cr
-	Date: \tab 2013-03-04\cr
+	Version: \tab 0.1-2\cr
+	Date: \tab 2013-09-26\cr
 	Depends: \tab ggplot2\cr
 	License: \tab GPL (>= 2)\cr
 	Depends: \tab ggplot2\cr
@@ -60,7 +60,8 @@
 	# Prediction for a selected fish species with time=365 days
 	trout <- fishmove(species="Salmo trutta fario",T=365)
 
-	# Plot of a leptokurtic dispersal kernel (density plot for fitted mean, lower and upper limit)
+	# Plot of a leptokurtic dispersal kernel 
+	# (density plot for fitted mean, lower and upper limit)
 	pdk(trout)
 }
 

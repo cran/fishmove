@@ -12,7 +12,7 @@ Functions to predict fish movement parameters of leptokurtic fish dispersal, bas
 }
 
 \usage{
-fishmove(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=50,...)
+fishmove(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=50,seed=NA,...)
 }
 
 \arguments{
@@ -36,6 +36,9 @@ fishmove(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=50,...)
 	}
   \item{rep}{
 	Number of regression runs to correct for replicates in \code{datafishmove}. The default value for \code{rep} is 50.
+	}
+  \item{seed}{
+	Number (integer) specifying a fixed seed for the random subsampling process (replicates of regression runs). By default this value is set random.
 	}
   \item{\dots}{
 	do not use.

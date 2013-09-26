@@ -1,13 +1,13 @@
-ee51e41aa919ef3b4164d0f608896a8f *DESCRIPTION
+351f9c67ae361508c80235abc16b81ae *DESCRIPTION
 2c00a64f038bab2f5dbf0515e6ce0285 *NAMESPACE
-3bdb63065964d2968425a04df8dd5326 *R/fishmove_code.R
+10bae307e5dfb581ceb224a578ba0bc4 *R/fishmove_code.R
 c7a3494f093024f3f7720e8d21e24311 *data/datafishmove.rda
 768fee614d0d3a80816dd472ee61a64f *data/speciesfishmove.rda
 599217da4f3e27f1bce31298c652cd12 *inst/CITATION
 71862b0278adc45b7db35c8b9efca221 *man/datafishmove.Rd
 3858aeefbbd1cebae4d8a46747a6acfc *man/fishmove-internal.Rd
-fbf2213ce0fe404140f502655b4ff141 *man/fishmove-package.Rd
-dc0a1a8843abeddf90b121c7e39185d9 *man/fishmove.Rd
+90341d7345e27f55ebf7a8181e71cb94 *man/fishmove-package.Rd
+0db0bf1b136d269c281a02ed5a0c48bf *man/fishmove.Rd
 a0ff81fdad2bd5a692cfe224f0f6dbce *man/pdk.Rd
 fe62a582f3aab6df7b3c3f705123a7ea *man/speciesfishmove.Rd
 93af643a529d86cf92be0c52f8b1e702 *tests/reptest.fishmove.R

@@ -5,7 +5,7 @@
 
 
 #Fishmove main default
-fishmove <- function(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=50,...){
+fishmove <- function(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=50,seed=NA,...){
 	
 	
 	####### VALIDATION of INPUT ##########
@@ -72,9 +72,15 @@ fishmove <- function(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=5
 	pred <- array(NA, dim = c(rep, 3, 2,length(L),length(AR),length(SO),length(T)), 
 			dimnames=list(NULL,NULL,c("sigma_stat","sigma_mob"),paste("L", L, sep="="),paste("AR", AR, sep="="),paste("SO", SO, sep="="),paste("T", T, sep="=")))
 	
+  
+  # Set seed for reproducability if specified
+	if(!missing(seed)){set.seed(seed)}
+	seed_vect <- sample(1:10000,rep,replace=T)
 	
 	for (i in 1:rep) {
 		REP = NULL # needed to get visible binding for global var in ddply
+    		subsample_seed <- seed_vect[i]
+		set.seed(subsample_seed)
 		subsample <- ddply(datafishmove, .(REP), function(x){
 					x[sample(nrow(x), 1), ]}) # subsample to correct for effect of pseudo replication
 		model.fishmove.stat <- lm(log(SIGMA_STAT) ~log(LENGTH)+ASPECT.RATIO+sqrt(STREAM.ORDER)+log(TIME),data=subsample)
