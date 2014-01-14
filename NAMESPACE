@@ -1,7 +1,8 @@
 export(	fishmove,
 		print.fishmove,
 		summary.fishmove,
-		pdk)
+		pdk,
+		fishmove.query)
 
 import(	ggplot2,
 		plyr)

@@ -9,8 +9,8 @@
 
 	\tabular{ll}{
 	Package: \tab fishmove\cr
-	Version: \tab 0.1-2\cr
-	Date: \tab 2013-09-26\cr
+	Version: \tab 0.2-1\cr
+	Date: \tab 2014-01-14\cr
 	Depends: \tab ggplot2\cr
 	License: \tab GPL (>= 2)\cr
 	Depends: \tab ggplot2\cr
@@ -32,6 +32,8 @@
 	In addition, common fish length and aspect ratio, are already provided for 40 different species from fishbase.org \cite{(Froese and Pauly, 2011)}.
 
 	The \code{pdk} function provides plots (based on \href{http://had.co.nz/ggplot2/}{ggplot2}) of probability density kernels (pdk) for leptokurtic fish dispersal. For each plot the fitted mean as well as the upper and the lower bound (based on confidence or prediction interval) are displayed.
+  
+  The \code{fishmove.query} function provides a tool to query a dispersal kernel (predicted by \code{fishmove}) where (distance from source) a certain probability can be found. Also the reverse is possible to query what probability of occurence is found in a certain distance on the dispersal kernel.
 
 	Improvements, bug fixes and constructive criticism are welcome.
 }

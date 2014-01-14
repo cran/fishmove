@@ -8,7 +8,7 @@
 }
 
 \usage{
-	pdk(fishmove, p = 0.66,...)
+	pdk(fishmove, p = 0.67,...)
 }
 
 \arguments{
@@ -16,7 +16,7 @@
 	Output from \code{fishmove}, containing the movement parameters \eqn{\sigma_{stat}}{sigma_stat} and \eqn{\sigma_{mob}}{sigma_mob}.
 	}
   \item{p}{
-	Share of stationary component on the population (0-1). The default value for \code{p} is 0.66.
+	Share of stationary component on the population (0-1). The default value for \code{p} is 0.67.
 	}
 	\item{\dots}{do not use.
 	}
