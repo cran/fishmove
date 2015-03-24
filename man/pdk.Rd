@@ -38,8 +38,8 @@
 }
 
 \references{
-Radinger, J. and Wolter C. (2013) 
-Patterns and predictors of fish dispersal in rivers. \emph{Fish and Fisheries} DOI: http://dx.doi.org/10.1111/faf.12028.
+Radinger, J. and Wolter C. (2014) 
+Patterns and predictors of fish dispersal in rivers. \emph{Fish and Fisheries}. 15:456-473. DOI: http://dx.doi.org/10.1111/faf.12028.
 }
 
 \seealso{

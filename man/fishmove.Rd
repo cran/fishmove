@@ -74,8 +74,8 @@ fishmove(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=50,seed=NA,..
 	Pauly, D. (1989)
 	A simple index of metabolic level in fishes. \emph{Fishbyte, Newsletter of the Network of Tropical Fisheries Scientists} 7, 22.
 
-	Radinger, J. and Wolter C. (2013) 
-	Patterns and predictors of fish dispersal in rivers. \emph{Fish and Fisheries} DOI: http://dx.doi.org/10.1111/faf.12028.
+	Radinger, J. and Wolter C. (2014) 
+	Patterns and predictors of fish dispersal in rivers. \emph{Fish and Fisheries}. 15:456-473. DOI: http://dx.doi.org/10.1111/faf.12028.
 
 	Strahler, A. N. (1957) 
 	Quantitative analysis of watershed geomorphology. \emph{Transactions of the American Geophysical Union} 8, 913-920.

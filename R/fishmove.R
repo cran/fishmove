@@ -7,7 +7,6 @@
 #Fishmove main default
 fishmove <- function(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=50,seed=NA,...){
 	
-	
 	####### VALIDATION of INPUT ##########
 	#Validation of Arguments
 	if(missing(species) && missing(L)) stop("No fish length or species provided")

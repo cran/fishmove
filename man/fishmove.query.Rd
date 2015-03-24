@@ -7,7 +7,7 @@ Prediction of Probabilities of Fish Movement/Occurrence based on Leptokurtic Dis
 }
 
 \description{
-Function to predict probabilities of fish movement/occurrence based on leptokurtic dispersal kernels fitted via multiple regression
+Function to predict probabilities of fish movement/occurrence based on leptokurtic dispersal kernels fitted via multiple regression.
 }
 
 \usage{
@@ -69,8 +69,8 @@ fishmove.query(fishmove,p=0.67,dist=NA,fromto=NA,prob=NA,reach=NA,w=1,level="fit
 }
 
 \references{
-	Radinger, J. and Wolter C. (2013) 
-	Patterns and predictors of fish dispersal in rivers. \emph{Fish and Fisheries} DOI: http://dx.doi.org/10.1111/faf.12028.
+	Radinger, J. and Wolter C. (2014) 
+	Patterns and predictors of fish dispersal in rivers. \emph{Fish and Fisheries}. 15:456-473. DOI: http://dx.doi.org/10.1111/faf.12028.
 }
 
 \seealso{

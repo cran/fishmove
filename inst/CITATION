@@ -7,11 +7,11 @@ citEntry(entry="Article",
          author = personList(as.person("J. Radinger"),
 			as.person("C. Wolter")),
 		 journal = "Fish and Fisheries",
-         year         = 2013,
+         year         = 2014,
          url          = "http://dx.doi.org/10.1111/faf.12028",
          note = vers,
          textVersion = 
-         paste("Radinger, J. and Wolter, C. (2013).", 
+         paste("Radinger, J. and Wolter, C. (2014).", 
                "Patterns and predictors of fish dispersal in rivers.",
-               "Fish and Fisheries.")
+               "Fish and Fisheries.  15:456-473")
 )
