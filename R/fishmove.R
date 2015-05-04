@@ -74,7 +74,7 @@ fishmove <- function(species=NA,L=NA,AR=NA,SO=6,T=30,interval="confidence",rep=5
   
   # Set seed for reproducability if specified
 	if(!missing(seed)){set.seed(seed)}
-	seed_vect <- sample(1:10000,rep,replace=T)
+	seed_vect <- sample(1:10000,rep,replace=TRUE)
 	
 	for (i in 1:rep) {
 		REP = NULL # needed to get visible binding for global var in ddply

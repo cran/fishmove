@@ -9,7 +9,7 @@
 
 	\tabular{ll}{
 	Package: \tab fishmove\cr
-	Version: \tab 0.3-1\cr
+	Version: \tab 0.3-2\cr
 	Date: \tab 2015-03-23\cr
 	Depends: \tab ggplot2, plyr, MASS, boot\cr
 	License: \tab GPL (>= 2)\cr
