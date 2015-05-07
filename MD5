@@ -1,6 +1,6 @@
-6c00e6bcd0f02b39c872618bb50dde03 *DESCRIPTION
+abe2a35c2e1c06690e2c63396ae2b396 *DESCRIPTION
 111dac07aee23026355bac6692782d26 *NAMESPACE
-3d005372df665db055971a4e6b0ff678 *R/fishmove.R
+eb2ae58eb5c8c4ba47d3f7f14b2212a8 *R/fishmove.R
 ea4497eb040d05f345dee8cd33eb306f *R/fishmove_estimate.R
 84709e7e6f297cfe6a13f230e763d6fd *R/fishmove_query.R
 319acc8a17262f11f182d93ac711cf68 *R/pdk.R
@@ -8,7 +8,7 @@ b6d582864f0b6ba73382fc649011c77e *R/sysdata.rda
 51d1e3d976f55055f20c5a075d99dbc0 *inst/CITATION
 2c47eb2a36286aafb3f30541193a8f64 *man/datafishmove.Rd
 3858aeefbbd1cebae4d8a46747a6acfc *man/fishmove-internal.Rd
-296b71a6cfaaecaf51d5f64d92dec189 *man/fishmove-package.Rd
+8c6d0c06acfdc7342eee4c2a9e5826fc *man/fishmove-package.Rd
 60a95c39017c0f5be539069bb1ff35b0 *man/fishmove.Rd
 187ad638666dc5a9f8077139cc040ff2 *man/fishmove.estimate.Rd
 1891943a967ea2ef75780a56160fb146 *man/fishmove.query.Rd
